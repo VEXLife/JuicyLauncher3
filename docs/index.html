@@ -11,8 +11,27 @@
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
     <script>
       new Docute({
-        target: '/main'
-      })
+  sidebar: [
+    {
+      title: 'Guide',
+      children: [
+        {
+          title: 'Getting Started',
+          link: '/guide/getting-started'
+        },
+        {
+          title: 'Installation',
+          link: '/guide/installation'
+        }
+      ]
+    },
+    {
+      title: 'GitHub',
+      link: 'https://github.com/egoist/docute'
+    }
+  ]
+})
+
     </script>
   </body>
 </html>
