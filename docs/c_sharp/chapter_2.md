@@ -13,7 +13,7 @@ String lnsuffix="";//后缀默认为空
 if(libitem.has("natives")){
 lnsuffix="-"+libitem.getJSONObject("natives").get(System.getName());//获取系统名
 }
-String libpath=CurrentDir + "\" + libname[0].Replace(".", "\\") + "\\" + libname[1] + "\\" + libname[2] + "\\" + libname[1] + "-" + libname[2] + lnsuffix + ".jar"//拼接库路径
+String libpath=CurrentDir + "\\" + libname[0].Replace(".", "\\") + "\\" + libname[1] + "\\" + libname[2] + "\\" + libname[1] + "-" + libname[2] + lnsuffix + ".jar"//拼接库路径
 if(File.exists(libpath))//文件存在
 {
 if(libitem.has("extract")){
