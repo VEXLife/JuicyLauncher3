@@ -20,8 +20,8 @@
 这篇教程编写的最初目的是为了给无经验但又热爱[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")，想亲自动手制作一款自己的启动器的玩家们铺路。
 
 ## 为什么要自己动手编写一款启动器软件？
-1. 可以锻炼我们的动手能力。熟悉编程的读者还可以实践自己学到的东西。
-2. 表达我们对[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")的热爱。
-3. 如果您是一名服务器所有者，或是客户端制作者，自己的[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")启动器可以带来更多的自由，为您的客户端增光添彩～
+1. 如果您是一名[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")服务器所有者，为您的服务器客户端配上一个自己的启动器，可以随时掌握玩家动态，玩家也可以获取到您的服务器的最新消息。您可以添加自己的登录验证方式，强制玩家使用您的启动器来防止他们通过使用作弊客户端来作弊。您可以通过您自己的启动器锁定游戏的配置文件，或者自动为玩家下载材质包和光影来为您的服务器带来更好的游戏体验。
+2. 如果您是一名编程爱好者，编写一款[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")启动器，涉及到了数据的解析与操作、事件、异步、网络操作、请求等多个编程常用操作，是您练手的不二选择。
+3. 如果您是一名纯粹的[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")玩家，仅仅是深深地热爱着这款游戏，难道您就不想感受亲手按下自己的启动器的“启动”按钮，看着自己心爱的游戏运行成功时的成就感吗？
 
 参与本教程编写人员有：[VEXLife](https://github.com/VEXLife)（贴吧ID：[VEXLife](https://tieba.baidu.com/home/main?un=VEXlife)）
