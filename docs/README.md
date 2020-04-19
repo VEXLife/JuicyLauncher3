@@ -19,4 +19,9 @@
 ## 目的
 这篇教程编写的最初目的是为了给无经验但又热爱[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")，想亲自动手制作一款自己的启动器的玩家们铺路。
 
+## 为什么要自己动手编写一款启动器软件？
+1. 可以锻炼我们的动手能力。熟悉编程的读者还可以实践自己学到的东西。
+2. 表达我们对[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")的热爱。
+3. 如果您是一名服务器所有者，或是客户端制作者，自己的[Minecraft](https://www.minecraft.net/zh-hans/ "访问Minecraft官方网站")启动器可以带来更多的自由，为您的客户端增光添彩～
+
 参与本教程编写人员有：[VEXLife](https://github.com/VEXLife)（贴吧ID：[VEXLife](https://tieba.baidu.com/home/main?un=VEXlife)）
