@@ -1,6 +1,6 @@
 # 第二章：启动Minecraft！
 下面给出伪代码：
-```
+``` C#
 public void LaunchMinecraft(String MaxMem,String VersionName,String NickName,String JrePath){
 String mcPath=CurrentDir + "\.minecraft"//得到.minecraft目录路径
 String natives=mcPath + "\versions\" + VerName + "\" + VerName +"-natives";//得到natives目录路径
