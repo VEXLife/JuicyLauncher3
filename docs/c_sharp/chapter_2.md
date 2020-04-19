@@ -2,10 +2,10 @@
 下面给出伪代码：
 ``` csharp
 public void LaunchMinecraft(String MaxMem,String VerName,String NickName,String JrePath){
-String mcPath=CurrentDir + @"\.minecraft"//得到.minecraft目录路径
-String natives=mcPath + @"\versions\" + VerName + @"\" + VerName + "-natives";//得到natives目录路径
-String mcJar=mcPath + @"\versions\" + VerName + @"\" + VerName + ".jar";//得到版本jar路径
-String jsonPath=mcPath + @"\versions\" + VerName + @"\" + VerName + ".json";//得到json路径
+String mcPath=CurrentDir + "\\.minecraft"//得到.minecraft目录路径
+String natives=mcPath + "\\versions\\" + VerName + "\\" + VerName + "-natives";//得到natives目录路径
+String mcJar=mcPath + "\\versions\\" + VerName + "\\" + VerName + ".jar";//得到版本jar路径
+String jsonPath=mcPath + "\\versions\\" + VerName + "\\" + VerName + ".json";//得到json路径
 JSONArray libs=new JSONObject(ReadAllTextFromFile(jsonPath)).getJSONArray("libraries");//获得库的json数组
 String libjars="";//定义库列表字符串
 foreach(JSONObject libitem in libs.toJSONObjects()){//遍历
