@@ -7,6 +7,6 @@
 
 安装完Visual Studio，我们需要Java运行环境，请到[这里](https://java.com/zh_CN/download "访问Java官方网站以下载")选择合适的版本下载安装。
 
-完成Java安装后，我们还需要选一个Jso解析库。对于不知道自己正在使用的编程语言有哪些JSON解析库的，您可以访问[json.org](https://www.json.org/json-zh.html)，在它的页面底部有大部分解析库的汇总。
+完成Java安装后，我们还需要选一个JSON解析库。对于不知道自己正在使用的编程语言有哪些JSON解析库的，您可以访问[json.org](https://www.json.org/json-zh.html)，在它的页面底部有大部分解析库的汇总。
 
 本文作者：[VEXLife](https://github.com/VEXLife)（贴吧ID：[VEXLife](https://tieba.baidu.com/home/main?un=VEXlife)）
