@@ -34,4 +34,4 @@ public void LaunchMinecraft(String MaxMem,String VerName,String NickName,String 
 //其中，String ReadAllTextFromFile(String path)函数用于返回指定路径文本文件的全部文本内容，Unzip(String path,String dest)方法用于解压path指定的压缩文件到dest指定的目录，一般用Zip压缩算法即可。JSONObject.*和JSONArray.*指Json解析库提供的json对象的调用。
 ```
 
-本文作者：[VEXLife](https://github.com/VEXLife)（贴吧ID：[VEXLife](https://tieba.baidu.com/home/main?un=VEXlife)）
+本文作者：Author0
