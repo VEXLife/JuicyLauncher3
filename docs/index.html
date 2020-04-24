@@ -10,7 +10,7 @@
     <div id="docute"></div>
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
     <script>
-        window.location.hash = 'README';
+        if(window.location.hash == '#/') window.location.hash = '#/README';
         const keyWords = {
             name: 'keyWords',
             extend(api) {
