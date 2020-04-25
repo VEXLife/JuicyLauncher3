@@ -1,5 +1,5 @@
 # 第一章：搭建工作环境
-如果您只是一名编程爱好者，建议您先玩一玩Minecraft，再来编写。
+如果您只是一名编程爱好者，建议您先玩一玩 Minecraft ，再来编写。
 
 ## 安装软件
 要想制作启动器，我们就得有开发工具。这里，我使用Visual Studio 2017。当然，Express版也是没有问题的。这个教程中的示例使用Visual C#编写。[点此前往Visual Studio下载页面](http://www.visualstudio.com/zh-hans/downloads "访问Visual Studio官方网站以下载")
