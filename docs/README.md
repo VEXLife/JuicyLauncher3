@@ -30,7 +30,7 @@
 - [ ] 启动具有继承关系的版本
 - [ ] 库的下载和补全
 - [ ] 资源文件的下载
-- [ ] Forge、LiteLoader、OptiFine的下载和安装
+- [ ]  Forge 、 LiteLoader 、 OptiFine 的下载和安装
 - [ ] 正版登录
 - [ ] authlib-injector认证
 
