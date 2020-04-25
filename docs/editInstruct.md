@@ -10,7 +10,7 @@
 
 ### 术语
 如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html)中，您会看到这样的代码：
-``` js {highlight: [5,6,7]}
+``` javascript {highlight: [5,6,7]}
 const keyWords = {
     name: 'keyWords',
     extend(api) {
@@ -22,11 +22,16 @@ const keyWords = {
     }
 }
 ```
-编辑高亮的代码部分即可，比如Minecraft这个关键词，只需添加一行``` js
+编辑高亮的代码部分即可，比如Minecraft这个关键词，只需添加一行
+``` javascript
 .replace(/Minecraft/g, '<a href="https://www.minecraft.net/zh-hans/" title="访问Minecraft官方网站">Minecraft</a>')
-```就好。
+```
+就好。
 
 ### 署名
-同上，您应当在文末的“本文作者”部分使用“Author<编号>”，然后在关键词中添加像这样的代码```.replace(/Author<编号>/g, '<a href="https://github.com/<您的GitHub ID>">您的GitHub ID</a>（您常用的论坛平台名：<a href="<您在该平台的个人主页链接>">您在该平台的ID</a>）')```
+同上，您应当在文末的“本文作者”部分使用“Author<编号>”，然后在关键词中添加像这样的代码
+``` javascript
+.replace(/Author<编号>/g, '<a href="https://github.com/<您的GitHub ID>">您的GitHub ID</a>（您常用的论坛平台名：<a href="<您在该平台的个人主页链接>">您在该平台的ID</a>）')
+```
 
 本文作者：Author0
