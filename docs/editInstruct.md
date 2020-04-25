@@ -24,14 +24,18 @@ const keyWords = {
 ```
 编辑高亮的代码部分即可，比如Term这个术语，只需添加一行
 ``` javascript
-.replace(/Term/g, '<a href="<描述Term这个术语的网站>" title="了解Term">Term</a>')
+.replace(/ Term /g, '<a href="<描述Term这个术语的网站>" title="了解Term">Term</a>')
 ```
 就好。
+<Note type=tip>
+  建议您像上面那样在待替换的关键词周围加上空格，以免误将代码中的内容识别。
+</Note>
 
 ### 署名
 同上，您应当在文末的“本文作者”部分使用“Author<编号>”，然后在关键词中添加像这样的代码：
 ``` javascript
 .replace(/Author<编号>/g, '<a href="https://github.com/<您的GitHub ID>">您的GitHub ID</a>（您常用的论坛平台名：<a href="<您在该平台的个人主页链接>">您在该平台的ID</a>）')
 ```
+这样，当您的ID或个人主页变更时，您只需改动一处即可。
 
 本文作者：Author0
