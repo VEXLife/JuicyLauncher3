@@ -2,7 +2,7 @@
 将您的文章（Markdown形式）以Pull Request的形式上传[此GitHub仓库](https://github.com/VEXLife/JuicyLauncher3)即可。为保护您的成果不受侵犯，建议您在您的文章的末尾标注您的ID，并在此页将自己的名字加入到参与编写人员名单中。如果有的话，也请提供您的百度贴吧ID便于联系。
 
 <Note type=warning>
-  参与教程编写活动即视为<b>您同意遵守<a href="#rules">教程编写合作者守则</a></b>。
+  参与教程编写活动即视为<b>您同意遵守<a href="#" onclick="window.location.hash='#rules';">教程编写合作者守则</a></b>。
 </Note>
 
 ## 关键词
@@ -10,7 +10,7 @@
 
 ### 术语
 如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html)中，您会看到这样的代码：
-``` js
+``` js {highlight: [5,6,7]}
 const keyWords = {
     name: 'keyWords',
     extend(api) {
@@ -22,5 +22,6 @@ const keyWords = {
     }
 }
 ```
+编辑高亮的代码部分即可，比如Minecraft这个关键词，只需添加一行`js .replace(/Minecraft/g, '<a href="https://www.minecraft.net/zh-hans/" title="访问Minecraft官方网站">Minecraft</a>')`
 
 本文作者：Author0
