@@ -22,9 +22,9 @@ const keyWords = {
     }
 }
 ```
-编辑高亮的代码部分即可，比如Minecraft这个关键词，只需添加一行
+编辑高亮的代码部分即可，比如Term这个术语，只需添加一行
 ``` javascript
-.replace(/Minecraft/g, '<a href="https://www.minecraft.net/zh-hans/" title="访问Minecraft官方网站">Minecraft</a>')
+.replace(/Term/g, '<a href="<描述Term这个术语的网站>" title="了解Term">Term</a>')
 ```
 就好。
 
