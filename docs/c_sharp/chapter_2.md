@@ -1,4 +1,4 @@
-# 第二章：启动Minecraft！
+# 第二章：启动 Minecraft ！
 下面给出伪代码：
 ``` csharp
 public void LaunchMinecraft(String MaxMem,String VerName,String NickName,String JrePath)
