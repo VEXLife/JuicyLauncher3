@@ -31,10 +31,11 @@ const keyWords = {
   建议您像上面那样在待替换的关键词周围加上空格，以免误将代码中的内容识别。
 </Note>
 目前，已支持的术语如下所示，请在编撰过程中遇到这些术语时在其周围添加空格以使其能被识别。
-* Minecraft 
-* Forge 
-* LiteLoader 
-* OptiFine 
+
+*  Minecraft 
+*  Forge 
+*  LiteLoader 
+*  OptiFine 
 
 ### 署名
 同上，您应当在文末的“本文作者”部分使用“Author<编号>”，然后在关键词中添加像这样的代码：
