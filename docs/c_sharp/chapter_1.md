@@ -23,7 +23,7 @@
   font-size: 36px;
   padding: 30px 3px 0px 0px;
   width: 350px;
-  transition: all 0.3s;
+  transition: all 0.5s cubic-bezier(0.6, 0.3, 0.4, 0.7);
   cursor: pointer;
   box-shadow: 0px 2px 6px #000000;
   line-height: 20px;
@@ -32,20 +32,20 @@
   cursor: pointer;
   position: relative;
   right: 0;
-  transition: 0.3s;
+  transition: all 0.5s cubic-bezier(0.6, 0.3, 0.4, 0.7);
 }
 .launchbtn span:after{
   cursor: pointer;
   position: relative;
   content: '';
   left: 0;
-  transition: 0.3s;
   display: inline-block;
   width: 15px;
   height: 15px;
   border-width: 3px 3px 0px 0px;
   border-style: solid;
   transform: rotate(45deg) translateY(-5px);
+  transition: all 0.5s cubic-bezier(0.6, 0.3, 0.4, 0.7);
 }
 .launchbtn:hover{
   background-color: #00ccff;
