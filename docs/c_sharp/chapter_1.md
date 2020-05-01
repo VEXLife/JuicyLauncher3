@@ -35,9 +35,15 @@ button span{
 button span:after{
   cursor: pointer;
   position: relative;
-  content: '>';
+  content: '';
   left: 0;
   transition: 0.3s;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 0px 0px;
+  border-style: solid;
+  transform: rotate(45deg) translateY(-5px);
 }
 button:hover{
   background-color: #00ccff;
