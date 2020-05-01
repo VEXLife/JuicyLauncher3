@@ -11,7 +11,7 @@
 完成Java安装后，我们还需要选一个JSON解析库。对于不知道自己正在使用的编程语言有哪些JSON解析库的，您可以访问[json.org](https://www.json.org/json-zh.html)，在它的页面底部有大部分解析库的汇总。
 
 ## 设计用户界面
-个人认为，这个启动按钮就不错。
+个人认为，这个启动按钮就不错。下方显示的信息可供用户核验。
 <style>
 .launchbtn {
   display: inline-block;
