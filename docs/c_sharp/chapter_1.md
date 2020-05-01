@@ -65,4 +65,10 @@
 </style>
 <button class='launchbtn'><span>启动Minecraft</span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
 
+## 初始化启动器设置
+用户第一次运行时，我们必须为用户提供一些基本的默认配置来简化使用。
+
+### 自动寻找 Java 
+注意有JRE和JDK两种以及32位和64位的问题。
+
 本文作者：Author0
