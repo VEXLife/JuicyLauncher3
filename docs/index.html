@@ -32,10 +32,10 @@
             extend(api) {
                 api.processMarkdown(text => {
                     return text
-                      .replace(/ Minecraft /g, '<a href="https://www.minecraft.net/zh-hans/" title="访问Minecraft官方网站">Minecraft</a>')
-                      .replace(/ Forge /g, '<a href="https://www.minecraftforge.net/forum/">Forge</a>')
-                      .replace(/ LiteLoader /g, '<a href="http://www.liteloader.com/">LiteLoader</a>')
-                      .replace(/ OptiFine /g, '<a href="https://www.optifine.net/home">OptiFine</a>')
+                      .replace(/ Minecraft /g, '<a href="https://www.minecraft.net/zh-hans/" title="访问Minecraft官方网站">Minecraft\n<external-link-icon /></a>')
+                      .replace(/ Forge /g, '<a href="https://www.minecraftforge.net/forum/">Forge\n<external-link-icon /></a>')
+                      .replace(/ LiteLoader /g, '<a href="http://www.liteloader.com/">LiteLoader\n<external-link-icon /></a>')
+                      .replace(/ OptiFine /g, '<a href="https://www.optifine.net/home">OptiFine\n<external-link-icon /></a>')
                       .replace(/Author0/g, '<a href="https://github.com/VEXLife">VEXLife</a>（贴吧ID：<a href="https://tieba.baidu.com/home/main?un=VEXlife">VEXLife</a>）')
                 });
             }
