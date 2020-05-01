@@ -9,7 +9,7 @@
 这个教程文档使用**扩展插件程序**替换关键词以便于维护。
 
 ### 术语
-如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html)中，您会看到这样的代码：
+如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html#L30)中，您会看到这样的代码：
 ``` javascript {highlight: [5,6,7]}
 const keyWords = {
     name: 'keyWords',
