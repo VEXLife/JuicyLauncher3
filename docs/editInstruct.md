@@ -24,7 +24,7 @@ const keyWords = {
 ```
 编辑高亮的代码部分即可，比如Term这个术语，只需添加一行
 ``` javascript
-.replace(/ Term /g, '<a href="<描述Term这个术语的网站>" title="了解Term">Term\n<external-link-icon /></a>')
+.replace(/ Term /g, '<a href="<描述Term这个术语的网站>" title="了解Term">Term&nbsp;<external-link-icon /></a>')
 ```
 就好。
 <Note type=tip>
