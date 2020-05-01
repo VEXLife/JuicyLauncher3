@@ -10,8 +10,10 @@
 
 完成Java安装后，我们还需要选一个JSON解析库。对于不知道自己正在使用的编程语言有哪些JSON解析库的，您可以访问[json.org](https://www.json.org/json-zh.html)，在它的页面底部有大部分解析库的汇总。
 
+## 设计用户界面
+个人认为，这个启动按钮就不错。
 <style>
-button {
+.launchbtn {
   display: inline-block;
   border-radius: 2px;
   border: none;
@@ -26,13 +28,13 @@ button {
   box-shadow: 0px 2px 6px #000000;
   line-height: 20px;
 }
-button span{
+.launchbtn span{
   cursor: pointer;
   position: relative;
   right: 0;
   transition: 0.3s;
 }
-button span:after{
+.launchbtn span:after{
   cursor: pointer;
   position: relative;
   content: '';
@@ -45,22 +47,22 @@ button span:after{
   border-style: solid;
   transform: rotate(45deg) translateY(-5px);
 }
-button:hover{
+.launchbtn:hover{
   background-color: #00ccff;
   box-shadow: 0px 2px 10px #000000;
 }
-button:hover span{
+.launchbtn:hover span{
   right: 5px;
 }
-button:hover span:after{
+.launchbtn:hover span:after{
   left: 10px;
 }
-button:active{
+.launchbtn:active{
   background-color: #0055ff;
   box-shadow: 0px 2px 4px #000000;
   transform: scale(0.98);
 }
 </style>
-<button><span>启动Minecraft</span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
+<button class='launchbtn'><span>启动Minecraft</span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
 
 本文作者：Author0
