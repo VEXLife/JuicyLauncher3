@@ -34,17 +34,11 @@
   right: 0;
   transition: all 0.3s cubic-bezier(0.6, 0.3, 0.4, 0.7);
 }
-.launchbtn span:after{
+.launchbtn span i{
   cursor: pointer;
   position: relative;
-  content: '';
-  left: 0;
+  left: 5px;
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-width: 3px 3px 0px 0px;
-  border-style: solid;
-  transform: rotate(45deg) translateY(-5px);
   transition: all 0.3s cubic-bezier(0.6, 0.3, 0.4, 0.7);
 }
 .launchbtn:hover{
@@ -54,8 +48,8 @@
 .launchbtn:hover span{
   right: 5px;
 }
-.launchbtn:hover span:after{
-  left: 10px;
+.launchbtn:hover span i{
+  left: 15px;
 }
 .launchbtn:active{
   background-color: #0055ff;
@@ -63,7 +57,7 @@
   transform: scale(0.98);
 }
 </style>
-<button class='launchbtn'><span>启动Minecraft</span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
+<button class='launchbtn'><span>启动Minecraft<i class='fa fa-angle-right'></i></span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
 
 ## 初始化启动器设置
 用户第一次运行时，我们必须为用户提供一些基本的默认配置来简化使用。
