@@ -9,7 +9,7 @@
 这个教程文档使用**扩展插件程序**替换关键词以便于维护。
 
 ### 术语
-如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html#L30)中，您会看到这样的代码：
+如果某个术语出现频繁，您可以将它设为关键词。在[index.html](https://github.com/VEXLife/JuicyLauncher3/blob/master/docs/index.html#L31)中，您会看到这样的代码：
 ``` javascript {highlight: [5,6,7]}
 const keyWords = {
     name: 'keyWords',
@@ -55,6 +55,13 @@ const keyWords = {
 与此同时，我们也为您提供贴吧原版滑稽（非矢量图），您只需改用下面的代码，即得到<HuaJi />。
 ``` html
 <HuaJi />
+```
+
+## 常用图标
+我们使用[Font Awesome](https://fontawesome.dashgame.com/)来呈现某些常用的图标。
+比如，当您想教用户按下键盘上的“Windows徽标键”时，使用下面的代码来显示“<i class="fa fa-windows"></i>”。
+``` html
+<i class="fa fa-windows"></i>
 ```
 
 ## 正在编写的内容
