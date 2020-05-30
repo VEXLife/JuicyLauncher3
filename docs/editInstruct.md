@@ -59,7 +59,8 @@ const keyWords = {
 
 ## 常用图标
 我们使用[Font Awesome](https://fontawesome.dashgame.com/)来呈现某些常用的图标。
-比如，当您想教用户按下键盘上的“Windows徽标键”时，使用下面的代码来显示“<i class="fa fa-windows"></i>”。
+
+比如，当您想指引用户按下键盘上的“Windows徽标键”时，使用下面的代码来显示“<i class="fa fa-windows"></i>”。
 ``` html
 <i class="fa fa-windows"></i>
 ```
