@@ -37,8 +37,8 @@
 .launchbtn span i{
   cursor: pointer;
   position: relative;
-  left: 5px;
-  display: inline-block;
+  left: 10px;
+  font-size: 40px;
   transition: all 0.3s cubic-bezier(0.6, 0.3, 0.4, 0.7);
 }
 .launchbtn:hover{
@@ -49,7 +49,7 @@
   right: 5px;
 }
 .launchbtn:hover span i{
-  left: 15px;
+  left: 20px;
 }
 .launchbtn:active{
   background-color: #0055ff;
