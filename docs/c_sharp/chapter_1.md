@@ -59,10 +59,19 @@
 </style>
 <button class='launchbtn'><span>启动Minecraft<i class='fa fa-angle-right'></i></span><br><font size=2>版本：未选择&nbsp;&nbsp;&nbsp;游戏名字：User</font></button>
 
+其它部分设计得尽量美观一点（不要学我），提供一个版本选择的空间、游戏名字的控件、“启动”按钮（你要是想把它改成“开始游戏”“启动Minecraft”“点击进入”之类的话我也不拦你）、“设置”按钮，具体怎么布局自由发挥，可以用XAML和各种做好的控件库，反正你自己觉得开心就好。如果去掉了窗体边框，请加上拖动功能，并提供关闭按钮。
+
 ## 初始化启动器设置
-用户第一次运行时，我们必须为用户提供一些基本的默认配置来简化使用。
+用户第一次运行时，我们必须为用户提供一些基本的默认配置来简化使用。在程序启动时如果没有配置文件，则认为是第一次启动，创建默认的配置文件。版本部分可以留空，还应创建好.minecraft文件夹，并将其作为游戏根目录。默认的Java虚拟机参数应调整为：
+``` bash
+-Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+```
+如果有，则在每次窗体引发Load事件时读取和载入配置。
 
 ### 自动寻找Java
-注意有JRE和JDK两种以及32位和64位的问题。
+默认Java路径通过读取注册表HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\<第一个版本名称，如1.8.0_144>下的JavaHome键值并拼接"\bin\javaw.exe"得到。注意**有JRE和JDK两种以及32位和64位的问题**，其对应的路径都是不同的，我们都要顾及到。
+
+### 保存设置
+无论是何种情况窗体被关闭，都应将选择的版本和用户名存入配置文件中。
 
 本文作者：Author0
